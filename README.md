@@ -11,7 +11,7 @@ In every iteration of selection sort, the minimum element (considering ascending
 # Java
    Step 1: 
            
-           for (int i = 0; i < numbers.length - 1; i++) {
+            for (int i = 0; i < numbers.length - 1; i++) {
             int min_index = i;
             for (int j = i + 1; j < numbers.length; j++) {
                 if (numbers[j] < numbers[min_index]) {
@@ -21,5 +21,12 @@ In every iteration of selection sort, the minimum element (considering ascending
             int temp = numbers[min_index];
             numbers[min_index] = numbers[i];
             numbers[i] = temp;
-        }
-      
+            }
+  
+   Step 2: 
+   Now,Print sorted Array in Ascending Order by loop
+   
+            System.out.print("Sorted Array in Ascending Order: ");
+            for (int i = 0; i < numbers.length; i++) {
+            System.out.print(numbers[i] + " ");
+            }
