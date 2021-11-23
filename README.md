@@ -8,6 +8,8 @@ The algorithm maintains two subarrays in a given array.
 2) Remaining subarray which is unsorted.
 In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray.
 
+![Selection-Sort](https://user-images.githubusercontent.com/35636662/143070169-811ee627-a311-4f63-b9fd-9f2c69ed5053.gif)
+
 # Java
    Step 1: 
            
